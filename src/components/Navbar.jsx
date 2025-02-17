@@ -1,7 +1,7 @@
 import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 function Navbar() {
@@ -13,8 +13,12 @@ function Navbar() {
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
         <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href="https://facebook.com/ppr201" target="_blank">
+          <FaFacebook />
+        </a>
+        <a href="https://instagram.com/fauzanazhar127" target="_blank">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
