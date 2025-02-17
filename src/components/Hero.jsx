@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/fauzanAzharProfile.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -23,7 +23,7 @@ function Hero() {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Kevin Rush
+              MFauzan Azhar
             </motion.h1>
             <motion.span
               variants={container(0.4)}
@@ -51,6 +51,7 @@ function Hero() {
               transition={{ duration: 0.5, delay: 0.8 }}
               src={profilePic}
               alt="Kevin Rush"
+              className="rounded-xl grayscale-100"
             />
           </div>
         </div>
